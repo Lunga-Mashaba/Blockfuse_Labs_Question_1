@@ -1,0 +1,8 @@
+{
+  "name": "longest-substring",
+  "version": "1.0.0",
+  "description": "Find longest substring without repeating characters",
+  "scripts": {
+    "test": "node src/test.js"
+  }
+}

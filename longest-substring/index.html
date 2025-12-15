@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Longest Substring Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Longest Substring Without Repeating Characters</h1>
+        
+        <div class="input-section">
+            <input type="text" id="inputString" value="abcabcbb" placeholder="Enter string...">
+            <button id="calculateBtn">Calculate</button>
+        </div>
+        
+        <div class="results">
+            <div>
+                <h3>Maximum Length:</h3>
+                <div id="lengthResult">-</div>
+            </div>
+            <div>
+                <h3>Longest Substring:</h3>
+                <div id="substringResult">-</div>
+            </div>
+        </div>
+        
+        <div class="examples">
+            <p>Try these examples:</p>
+            <button data-string="abcabcbb">abcabcbb</button>
+            <button data-string="bbbbb">bbbbb</button>
+            <button data-string="pwwkew">pwwkew</button>
+        </div>
+    </div>
+    
+    <script src="src/longestSubstring.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
